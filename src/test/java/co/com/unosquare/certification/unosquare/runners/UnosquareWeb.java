@@ -7,7 +7,6 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features/unosquare_web.feature",
         glue = "co.com.unosquare.certification.unosquare.stepdefinitions",
-        tags = "@Test2",
         snippets = CucumberOptions.SnippetType.CAMELCASE)
 
 public class UnosquareWeb {
