@@ -11,14 +11,14 @@ Feature: i as user want to be in a Unosquare web site
     And The user go to the contact us section and select the submit botton
     Then The user will be see the message error
 
-  @Test1
+
   Scenario: I as user can fill the fields Company number and telephone number
     Given The user be in Contact us section
     When The enter the values in company numer and telephone number fields
       | company number | telephone number |
       | 839-1855       | 9031-2727        |
 
-  @Test2
+
   Scenario: I as user want be in About section
     Given The user be in Contact us section
     When The user select the about us option
